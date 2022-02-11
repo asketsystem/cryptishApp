@@ -2,6 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import ListItem from "./components/ListItem";
 
+import { SAMPLE_DATA } from "./assets/data/sampleData";
+
 export default function App() {
   return (
     <View style={styles.container}>
